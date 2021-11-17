@@ -1,0 +1,117 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (max-width: 575px) {
+  .left_part img {
+    margin-top: 50px;
+  }
+  .right_part h1 {
+    margin-top: 35px;
+}
+
+  
+}
+
+@media (max-width: 425px) {
+    footer p {
+      font-size: 15px;
+  }
+    .booking h2 {
+      margin-top: 16%;
+  }
+    .facilities {
+      display: unset;
+  }
+    .facilities input {
+      margin-top: 0;
+  }
+    header h1 {
+      margin-top: 30px;
+      font-size: 50px;
+  }
+
+}
+
+@media (max-width: 375px) {
+    header h1 {
+      font-size: 40px;
+      text-align: center;
+}
+   header p {
+    text-align: center;
+}
+  .banner_btn {
+    text-align: center;
+}
+.pictures img {
+  width: 100%;
+}
+.booking h2 {
+  font-size: 36px;
+  margin-top: 16%;
+}
+.booking p {
+  font-size: 17px;
+}
+
+.nav_btn input {
+padding: 8px 16px;
+}
+.banner_btn input {
+padding: 8px 22px;
+font-size: 13px;
+}
+.right_part h1 {
+  margin-top: 40px;
+}
+
+}
+
+@media (max-width: 320px) {
+  
+  .icons ul {
+      width: 36%;
+  }
+  .booking {
+      min-height: 80vh;
+  }
+  .booking h2 {
+      font-size: 28px;
+      margin-top: 15%;
+  }
+  .booking p {
+      font-size: 15px;
+  }
+  .number ul li i {
+      font-size: 29px;
+  }
+  .number ul li h1 {
+      margin-top: 12px;
+  }
+  .pictures img {
+      width: 100%;
+  }
+  header h1 {
+      font-size: 38px;
+      margin-top: 41px;
+  }
+  
+  .facilities {
+    margin-top: 25%;
+}
+  
+}
